@@ -1,0 +1,64 @@
+.bgColorStyle {
+    background: url("../../assets/Images/HomeWithPeople.png");
+    background-size: cover;
+    height: 110vh;
+    background-repeat: no-repeat;
+    background-position: 100% 100% ;
+}
+.formstyle{
+    width: 511px;
+}
+.scopeText{
+    font-size: 58px;
+    background: -webkit-linear-gradient(#25823F, #78DC96);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.bg-color{
+background: rgba(67, 148, 91, 0.88);
+    border-radius: 11px;
+    /* opacity: 0.8; */
+    color:white;
+    margin-top: 100px;
+}
+input{
+    opacity: 2;
+}
+.navbar{
+    background-image: linear-gradient(white,white,rgba(255, 255, 255, 0.221));
+}
+.ActiveEffect:active{
+transform: scale(96%);
+}
+
+@media screen and (max-width:2500px) {
+    .bgColorStyle{
+    height: 90vh;
+    }
+    .scopetext{
+    font-size: 72px;
+    }
+}
+@media screen and (max-width:1400px) {
+    .bgColorStyle{
+    height: 110vh;
+    }
+    .scopetext{
+        font-size: 42px;
+    }
+    .formstyle {
+        width: 311px;
+    }
+}
+@media screen and (max-width:1100px) {
+    .bg-color{
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width:767px) {
+    .bg-color{
+        margin-top: 20px;
+    }
+}

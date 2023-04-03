@@ -1,0 +1,24 @@
+.cardStyle{
+    background-color: #195f22f1;
+    height: max-content;
+    width: 100%;
+}
+.alighnment{
+    height: 36vh;
+}
+.imgStyle{
+    /* bottom: 60px; */
+    height: 45px !important;
+    width: 45px !important;
+    background-color: white;
+}
+.newOrder{
+    top: -44px;
+  background-color: rgba(255, 255, 255, 0.349);
+    height: 60px !important;
+        width: 60px !important;
+}
+.transitionEffect:hover{
+    transform: scale(103%);
+    transition: 0.10s;
+}
